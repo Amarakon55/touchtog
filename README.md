@@ -3,9 +3,7 @@
 TouchTog is a simple program to toggle the touchpad.
 
 ## Dependencies
-1. portage
-1. eix or portage-Utils
-    * eix is recommended because it is faster and has more details.
+1. xinput
 
 ## (Un)Installation
 ### Universal
@@ -32,11 +30,11 @@ TouchTog is a simple program to toggle the touchpad.
 2. Sync my personal [Gentoo overlay](https://github.com/Amarakon55/amarlay) using `emerge`
 * `# emerge --sync amarlay`
 3. Emerge the TouchTog package
-* `# emerge x11-misc/touchtog` or `# emerge touchtog`
+* `# emerge x11-apps/touchtog` or `# emerge touchtog`
 #### Uninstallation
 ##### Latest Git Master (Bleeding Edge)
 1. Unmerge the TouchTog package
-* `# emerge -c x11-misc/touchtog` or `# emerge -c touchtog`
+* `# emerge -c x11-apps/touchtog` or `# emerge -c touchtog`
 2. (Optional) Remove my overlay
 * `# eselect-repository remove -f amarlay`
 3. (Optional) Sync using `emerge`
